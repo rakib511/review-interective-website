@@ -1,0 +1,13 @@
+.items{
+    list-style: none;
+    margin-right: 20px;
+    font-size: 22px;
+    font-weight: 500px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.items:hover{
+    color: red;
+    
+}
