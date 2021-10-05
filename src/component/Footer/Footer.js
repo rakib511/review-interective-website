@@ -10,7 +10,7 @@ const Footer = () => {
                     <div className='col-md-6'>
                         <p className='para'>Our web studio creates and promotes websites, we work for the result.</p>
                         <h3 className='footer-h3'>Follow us:</h3>
-                        <div className='icons'>
+                        <div className='icon'>
                             <div className='icon'><i class="fab fa-facebook-square"></i>-Facebook</div>
                             <div className='icon'><i class="fab fa-twitter-square"></i>-twetter</div>
                             <div className='icon'><i class="fab fa-linkedin-in"></i>-linkdin</div>

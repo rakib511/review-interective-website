@@ -24,8 +24,8 @@ const Courses = () => {
                                     <h2>{course.name}</h2>
                                     <p>Fee:{course.cost}BDT</p>
                                     <p><small>Seat:{course.seat}</small></p>
-                                   
-                                    <button className='btn btn-success px-5 py-3'>Details</button>
+                                    <p>{course.description}</p>
+                                    
                                     
                                 </div>
                             </div>

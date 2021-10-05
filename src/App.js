@@ -7,12 +7,14 @@ import Footer from "./component/Footer/Footer";
 import Services from "./component/Services/Services";
 import About from "./component/About/About";
 import Contact from "./component/Contact/Contact";
+import Menubar from "./component/Menubar/Menubar";
+import Eror from "./component/Error/Eror";
 
 function App() {
   return (
     <div className="App">
       <BrowserRouter>
-        <Banner></Banner>
+        {/* <Banner></Banner> */}
         <Switch>
           <Route exact path="/">
             <Home></Home>
@@ -21,19 +23,23 @@ function App() {
             <Home></Home>
           </Route>
           <Route path="/service">
+             <Menubar></Menubar>
             <Services></Services>
           </Route>
           <Route path="/About">
+            <Menubar></Menubar>
             <About></About>
           </Route>
           <Route path="/contact">
+            <Menubar></Menubar>
             <Contact></Contact>
           </Route>
           <Route path="*">
-            <Home></Home>
+            <Menubar></Menubar>
+            <Eror></Eror>
           </Route>
         </Switch>
-        <Footer></Footer>
+        {/* <Footer></Footer> */}
       </BrowserRouter>
     </div>
   );

@@ -1,0 +1,7 @@
+.icons{
+    background-color: antiquewhite;
+}
+.cart{
+    display: flex;
+    justify-content: center;
+}
