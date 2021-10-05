@@ -1,7 +1,7 @@
 import React from "react";
 import Courses from "../Courses/Courses";
 
-const Home = () => {
+const Services = () => {
   return (
     <div>
       <Courses></Courses>
@@ -9,4 +9,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Services;
